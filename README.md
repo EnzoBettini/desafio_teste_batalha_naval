@@ -39,6 +39,8 @@ Construtor opcional: `{ placements: { 1: Placement[], 2: Placement[] } }`.
 
 `constantes-api`, `limites-bounds`, `posicionamento`, `frota-completa`, `inicio-partida`, `disparos`, `afundar-navio`, `vitoria`, `turnos`, `integracao-partida`, `fixtures/placements.js`
 
+`revisao-gabriel` — revisão do Gabriel: porta-aviões com `hit` até a última célula e `sunk` na view, tiro repetido não consome o turno, vitória do jogador 2 com tiros intercalados, `fire`/`placeShip`/`beginGame` sem efeito após `finished` e isolamento das views entre jogadores.
+
 ```bash
 npm install
 npm test
